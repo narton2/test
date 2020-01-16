@@ -228,7 +228,7 @@ class Children extends React.Component {
   render() {
     return (
       <div>
-        <button name="-1" onClick={this.props.onClick}>-KUt</button>
+        <button name="-1" onClick={this.props.onClick}>-</button>
         <input value={this.props.wartosc} type="text"/>
         <button name="1" onClick={this.props.onClick}>+</button>
       </div>
